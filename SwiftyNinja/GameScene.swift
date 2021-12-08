@@ -30,12 +30,12 @@ class GameScene: SKScene {
     var activeSliceFG: SKShapeNode!
     
     var activeSlicePoints = [CGPoint]()
+    var activeEnemies = [SKSpriteNode]()
     
     var isSwooshSoundActive = false
     
     var bombSoundEffect: AVAudioPlayer?
     
-    var activeEnemies = [SKSpriteNode]()
     
     var popupTime = 0.9
     var sequence = [SequenceType]()
