@@ -424,7 +424,6 @@ class GameScene: SKScene {
                 DispatchQueue.main.asyncAfter(deadline: .now() + popupTime) { [weak self] in
                     self?.tossEnemies()
                 }
-                
                 nextSequenceQueued = true
             }
         }
