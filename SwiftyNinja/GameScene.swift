@@ -395,7 +395,6 @@ class GameScene: SKScene {
                 break
             }
         }
-        
         if bombCount == 0 {
             bombSoundEffect?.stop()
             bombSoundEffect = nil
