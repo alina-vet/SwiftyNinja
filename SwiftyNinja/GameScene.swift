@@ -36,7 +36,6 @@ class GameScene: SKScene {
     
     var bombSoundEffect: AVAudioPlayer?
     
-    
     var popupTime = 0.9
     var sequence = [SequenceType]()
     var sequencePosition = 0
